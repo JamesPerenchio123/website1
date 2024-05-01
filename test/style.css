@@ -1,0 +1,37 @@
+#terminal {
+    width: 80%;
+    margin: 0 auto;
+    font-family: monospace, courier, "Lucida Console";
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-y: scroll;
+    /* Hide scrollbar but allow scrolling */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  #terminal::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #output {
+    margin-bottom: 0;
+    white-space: pre-wrap; /* Wrap long lines */
+  }
+  
+  #prompt {
+    display: inline-block;
+    font-weight: bold;
+    color: #3AADFF; /* Light blue prompt color */
+  }
+  
+  #userInput {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+  }
+  
