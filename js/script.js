@@ -73,6 +73,7 @@ function processCommand(command) {
                 console.log("User entered:", command); // Log user command to console
                 result = "Redirecting to the about page in 3 seconds...<br>";
                 updateTerminal(result);
+                
                 setTimeout(() => {
                     result = "Redirecting to the about page in 2 seconds...<br>";
                     updateTerminal(result);
