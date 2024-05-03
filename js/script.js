@@ -120,4 +120,4 @@ function updateTerminal(result) {
   
   
 // Pre-populate some output (optional)
-output.innerHTML += "Welcome to the interactive terminal!<br>";
+output.innerHTML += "Welcome to the interactive terminal! Feel free to use this. start by pressig h.<br>";
