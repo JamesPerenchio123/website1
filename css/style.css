@@ -66,3 +66,17 @@ body {
   color: #000000;
 }
   
+
+.skills-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Adjust the gap between items as needed */
+}
+
+.skills {
+  background-color: rgb(227, 233, 235);
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
