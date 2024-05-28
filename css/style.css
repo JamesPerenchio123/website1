@@ -47,10 +47,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-.container {
+.about-me-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .experience-entry {
   margin: 10px 0;
